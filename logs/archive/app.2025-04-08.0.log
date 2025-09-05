@@ -1,0 +1,152 @@
+2025-04-08 16:10:01,937 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-08 16:10:01,976 INFO o.s.b.StartupInfoLogger [restartedMain] Starting BakendApiRestApplication using Java 17.0.9 with PID 14648 (C:\Users\USER\Documents\Sprint Boot\bakend-api-rest\bakend-api-rest\target\classes started by USER in C:\Users\USER\Documents\Sprint Boot\bakend-api-rest\bakend-api-rest)
+2025-04-08 16:10:01,977 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-08 16:10:02,013 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08 16:10:02,016 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08 16:10:03,081 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 16:10:03,150 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2025-04-08 16:10:04,205 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 3001 (http)
+2025-04-08 16:10:04,224 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3001"]
+2025-04-08 16:10:04,230 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-08 16:10:04,231 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-04-08 16:10:04,340 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-08 16:10:04,344 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2327 ms
+2025-04-08 16:10:05,071 WARN o.f.c.i.l.s.Slf4jLog [restartedMain] Discarding duplicate location 'classpath:db/migrations'
+2025-04-08 16:10:05,100 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-08 16:10:05,324 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e07fe19
+2025-04-08 16:10:05,330 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-08 16:10:05,370 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Database: jdbc:postgresql://localhost:5432/ccunsa (PostgreSQL 16.4)
+2025-04-08 16:10:05,427 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Successfully validated 4 migrations (execution time 00:00.034s)
+2025-04-08 16:10:05,576 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Current version of schema "ccunsa": 2.2
+2025-04-08 16:10:05,578 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Schema "ccunsa" is up to date. No migration necessary.
+2025-04-08 16:10:05,701 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 16:10:05,789 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-04-08 16:10:05,857 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-08 16:10:06,171 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 16:10:07,029 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 16:10:07,031 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 16:10:07,660 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 16:10:07,726 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name projectUserDetailService
+2025-04-08 16:10:08,327 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 15 endpoints beneath base path '/actuator'
+2025-04-08 16:10:08,845 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-08 16:10:08,890 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3001"]
+2025-04-08 16:10:08,908 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 3001 (http) with context path '/'
+2025-04-08 16:10:08,926 INFO o.s.b.StartupInfoLogger [restartedMain] Started BakendApiRestApplication in 7.404 seconds (process running for 7.809)
+2025-04-08 16:10:44,683 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 16:10:44,686 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-08 16:10:44,690 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-08 16:28:15,041 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-08 16:28:15,079 INFO o.s.b.StartupInfoLogger [restartedMain] Starting BakendApiRestApplication using Java 17.0.9 with PID 11664 (C:\Users\USER\Documents\Sprint Boot\bakend-api-rest\bakend-api-rest\target\classes started by USER in C:\Users\USER\Documents\Sprint Boot\bakend-api-rest\bakend-api-rest)
+2025-04-08 16:28:15,080 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-08 16:28:15,121 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08 16:28:15,121 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08 16:28:16,276 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 16:28:16,336 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2025-04-08 16:28:17,435 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 3001 (http)
+2025-04-08 16:28:17,451 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3001"]
+2025-04-08 16:28:17,458 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-08 16:28:17,459 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-04-08 16:28:17,592 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-08 16:28:17,593 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2472 ms
+2025-04-08 16:28:18,235 WARN o.f.c.i.l.s.Slf4jLog [restartedMain] Discarding duplicate location 'classpath:db/migrations'
+2025-04-08 16:28:18,248 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-08 16:28:18,424 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d6f53c7
+2025-04-08 16:28:18,427 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-08 16:28:18,451 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Database: jdbc:postgresql://localhost:5432/ccunsa (PostgreSQL 16.4)
+2025-04-08 16:28:18,491 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Successfully validated 4 migrations (execution time 00:00.026s)
+2025-04-08 16:28:18,538 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Current version of schema "ccunsa": 2.2
+2025-04-08 16:28:18,543 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Schema "ccunsa" is up to date. No migration necessary.
+2025-04-08 16:28:18,654 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 16:28:18,720 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-04-08 16:28:18,756 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-08 16:28:18,980 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 16:28:19,860 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 16:28:19,862 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 16:28:20,443 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 16:28:20,503 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name projectUserDetailService
+2025-04-08 16:28:21,044 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 15 endpoints beneath base path '/actuator'
+2025-04-08 16:28:21,562 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-08 16:28:21,610 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3001"]
+2025-04-08 16:28:21,633 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 3001 (http) with context path '/'
+2025-04-08 16:28:21,649 INFO o.s.b.StartupInfoLogger [restartedMain] Started BakendApiRestApplication in 7.036 seconds (process running for 7.471)
+2025-04-08 16:34:51,704 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 16:34:51,707 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-08 16:34:51,711 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-08 16:35:16,680 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-08 16:35:16,726 INFO o.s.b.StartupInfoLogger [restartedMain] Starting BakendApiRestApplication using Java 17.0.9 with PID 1516 (C:\Users\USER\Documents\Sprint Boot\bakend-api-rest\bakend-api-rest\target\classes started by USER in C:\Users\USER\Documents\Sprint Boot\bakend-api-rest\bakend-api-rest)
+2025-04-08 16:35:16,727 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-04-08 16:35:16,766 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08 16:35:16,767 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08 16:35:17,926 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 16:35:17,993 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2025-04-08 16:35:18,937 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 3001 (http)
+2025-04-08 16:35:18,951 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3001"]
+2025-04-08 16:35:18,957 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-08 16:35:18,958 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-04-08 16:35:19,030 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-08 16:35:19,031 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2263 ms
+2025-04-08 16:35:19,588 WARN o.f.c.i.l.s.Slf4jLog [restartedMain] Discarding duplicate location 'classpath:db/migrations'
+2025-04-08 16:35:19,602 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-08 16:35:19,763 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@356b9022
+2025-04-08 16:35:19,765 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-08 16:35:19,794 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Database: jdbc:postgresql://localhost:5432/ccunsa (PostgreSQL 16.4)
+2025-04-08 16:35:19,842 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Successfully validated 4 migrations (execution time 00:00.029s)
+2025-04-08 16:35:19,887 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Current version of schema "ccunsa": 2.2
+2025-04-08 16:35:19,894 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Schema "ccunsa" is up to date. No migration necessary.
+2025-04-08 16:35:20,026 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 16:35:20,143 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-04-08 16:35:20,193 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-08 16:35:20,416 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 16:35:21,198 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 16:35:21,200 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 16:35:21,747 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 16:35:21,813 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name projectUserDetailService
+2025-04-08 16:35:22,321 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 15 endpoints beneath base path '/actuator'
+2025-04-08 16:35:22,880 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-08 16:35:22,920 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3001"]
+2025-04-08 16:35:22,938 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 3001 (http) with context path '/'
+2025-04-08 16:35:22,954 INFO o.s.b.StartupInfoLogger [restartedMain] Started BakendApiRestApplication in 6.715 seconds (process running for 7.132)
+2025-04-08 16:37:25,255 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 16:37:25,257 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-08 16:37:25,261 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-08 16:39:15,909 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-04-08 16:39:15,947 INFO o.s.b.StartupInfoLogger [restartedMain] Starting BakendApiRestApplication using Java 17.0.9 with PID 2720 (C:\Users\USER\Documents\Sprint Boot\bakend-api-rest\bakend-api-rest\target\classes started by USER in C:\Users\USER\Documents\Sprint Boot\bakend-api-rest\bakend-api-rest)
+2025-04-08 16:39:15,948 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "prd"
+2025-04-08 16:39:15,987 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08 16:39:15,987 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08 16:39:17,006 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 16:39:17,059 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+2025-04-08 16:39:18,043 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 3001 (http)
+2025-04-08 16:39:18,056 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3001"]
+2025-04-08 16:39:18,060 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-04-08 16:39:18,061 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-04-08 16:39:18,138 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-04-08 16:39:18,139 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2152 ms
+2025-04-08 16:39:18,681 WARN o.f.c.i.l.s.Slf4jLog [restartedMain] Discarding duplicate location 'classpath:db/migrations'
+2025-04-08 16:39:18,702 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-04-08 16:39:18,857 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54565fb0
+2025-04-08 16:39:18,858 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-04-08 16:39:18,886 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Database: jdbc:postgresql://localhost:5432/ccunsa_prd (PostgreSQL 16.4)
+2025-04-08 16:39:18,913 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Creating schema "ccunsa" ...
+2025-04-08 16:39:18,923 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Creating Schema History table "ccunsa"."flyway_schema_history" ...
+2025-04-08 16:39:19,019 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Current version of schema "ccunsa": null
+2025-04-08 16:39:19,029 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Migrating schema "ccunsa" to version "1 - initialTables"
+2025-04-08 16:39:19,074 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Migrating schema "ccunsa" to version "2.1 - AddUsers"
+2025-04-08 16:39:19,095 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Migrating schema "ccunsa" to version "2.2 - ChangeAtributesUsers"
+2025-04-08 16:39:19,104 INFO o.f.c.i.l.s.Slf4jLog [restartedMain] Successfully applied 3 migrations to schema "ccunsa", now at version v2.2 (execution time 00:00.049s)
+2025-04-08 16:39:19,233 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 16:39:19,324 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-04-08 16:39:19,366 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-04-08 16:39:19,649 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 16:39:20,480 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 16:39:20,483 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 16:39:21,027 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 16:39:21,085 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name projectUserDetailService
+2025-04-08 16:39:21,529 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 1 endpoint beneath base path '/actuator'
+2025-04-08 16:39:22,339 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-04-08 16:39:22,409 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3001"]
+2025-04-08 16:39:22,436 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 3001 (http) with context path '/'
+2025-04-08 16:39:22,452 INFO o.s.b.StartupInfoLogger [restartedMain] Started BakendApiRestApplication in 6.982 seconds (process running for 7.437)
+2025-04-08 18:06:16,901 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 18:06:16,921 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-08 18:06:16,928 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

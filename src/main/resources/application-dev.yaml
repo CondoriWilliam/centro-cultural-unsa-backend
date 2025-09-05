@@ -1,0 +1,32 @@
+#spring.application.name=bakend-api-rest
+
+#spring.datasource.url=${URL}
+#server.port=${PORT:7070}
+#spring.datasource.username=${USERNAME}
+#spring.datasource.password=${PASSWORD}
+#spring.datasource.driver-class-name=${DRIVER}
+#spring.jpa.hibernate.ddl-auto=${DDL}
+
+
+spring:
+  application:
+    name: bakend-api-rest
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    hikari:
+      schema: ccunsa
+  flyway: #flyway automatically uses the datasource from the application to connect to the DB
+    enabled: true # enables flyway database migration
+    locations: classpath:db/migrations, classpath:db/migrations # the location where flyway should look for migration scripts
+    validate-on-migrate: true
+    default-schema: ccunsa
+server:
+  port: ${PORT:7070}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
