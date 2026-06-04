@@ -30,13 +30,13 @@ Este proyecto consiste en una API RESTful diseñada para centralizar la gestión
          ▼
     Spring Boot REST API
          │
- ┌───────────────┐
- │ Controllers   │
- ├───────────────┤
- │ Services      │
- ├───────────────┤
- │ Repositories  │
- └───────────────┘
+  ┌───────────────┐
+  │ Controllers   │
+  ├───────────────┤
+  │ Services      │
+  ├───────────────┤
+  │ Repositories  │
+  └───────────────┘
          │
          ▼
      PostgreSQL
