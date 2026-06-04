@@ -28,7 +28,7 @@ Este proyecto consiste en una API RESTful diseñada para centralizar la gestión
     Android App
          │
          ▼
-    Spring Boot REST API
+Spring Boot REST API
          │
   ┌───────────────┐
   │ Controllers   │
